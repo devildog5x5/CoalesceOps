@@ -28,7 +28,7 @@
   }
 
   function applyTheme(name) {
-    if (!themes[name]) name = "light";
+    if (!themes[name]) name = "light-green";
     document.documentElement.setAttribute("data-theme", name);
     try { localStorage.setItem("coalesceops-theme", name); } catch (e) {}
     var themeColor = getComputedStyle(document.documentElement).getPropertyValue("--theme-color").trim();
@@ -97,5 +97,5 @@
     }
   }
 
-  applyTheme(document.documentElement.getAttribute("data-theme") || "light");
+  applyTheme(document.documentElement.getAttribute("data-theme") || "light-green");
 })();
