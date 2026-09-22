@@ -8,6 +8,7 @@
     light: 1,
     dark: 1,
     "light-green": 1,
+    "medium-green": 1,
     "dark-green": 1,
     "light-blue": 1,
     "medium-blue": 1,

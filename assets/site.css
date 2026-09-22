@@ -59,6 +59,26 @@ html[data-theme="light-green"] {
   --theme-color: #e7f3ea;
 }
 
+html[data-theme="medium-green"] {
+  --paper: #1f6b45;
+  --surface: #278556;
+  --ink: #f4fbf6;
+  --ink-soft: #d7eadf;
+  --muted: #d5eadc;
+  --line: #4d9a72;
+  --accent: #d7f0e3;
+  --accent-hot: #ffffff;
+  --btn: #d7f0e3;
+  --btn-text: #0e2a1c;
+  --header: rgba(31, 107, 69, 0.94);
+  --card: #278556;
+  --band: #1a5c3b;
+  --foot: #0e2a1c;
+  --foot-ink: #f4fbf6;
+  --foot-muted: #c5dfd0;
+  --theme-color: #1f6b45;
+}
+
 html[data-theme="dark-green"] {
   --paper: #0e1c16;
   --surface: #15281f;
