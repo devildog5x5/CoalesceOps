@@ -32,7 +32,7 @@
   function applyTheme(name) {
     if (!themes[name]) name = "light-green";
     document.documentElement.setAttribute("data-theme", name);
-    try { localStorage.setItem("coalesceops-theme", name); } catch (e) {}
+    try { sessionStorage.setItem("coalesceops-theme", name); } catch (e) {}
     var themeColor = getComputedStyle(document.documentElement).getPropertyValue("--theme-color").trim();
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta && themeColor) meta.setAttribute("content", themeColor);
