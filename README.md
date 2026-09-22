@@ -4,7 +4,7 @@ One practice for joining separate teams, systems, and sites into a single operat
 
 Open `index.html` locally, or unzip the zip into Hostinger `public_html`.
 
-**Hostinger zip:** [CoalesceOps-1.0.8.zip](https://github.com/devildog5x5/CoalesceOps/releases/download/v1.0.8/CoalesceOps-1.0.8.zip) — unzip into `public_html`. Rebuild with `powershell -File .\build_site_zip.ps1` (filename includes the version from `VERSION`). Footer on every page: Coalesce Ops v1.0.8.
+**Hostinger zip:** [CoalesceOps-1.0.9.zip](https://github.com/devildog5x5/CoalesceOps/releases/download/v1.0.9/CoalesceOps-1.0.9.zip) — unzip into `public_html`. Rebuild with `powershell -File .\build_site_zip.ps1` (filename includes the version from `VERSION`). Footer on every page: Coalesce Ops v1.0.9.
 
 **Contact:** rmf@coalesceops.com · 801.319.1061
 
