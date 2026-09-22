@@ -99,6 +99,26 @@ html[data-theme="light-blue"] {
   --theme-color: #e7f1f8;
 }
 
+html[data-theme="medium-blue"] {
+  --paper: #1f5c96;
+  --surface: #2770b0;
+  --ink: #f4f8fc;
+  --ink-soft: #d7e6f4;
+  --muted: #d5e6f5;
+  --line: #4d8bc4;
+  --accent: #d6ebfa;
+  --accent-hot: #ffffff;
+  --btn: #d6ebfa;
+  --btn-text: #0e2a44;
+  --header: rgba(31, 92, 150, 0.94);
+  --card: #2770b0;
+  --band: #1a5084;
+  --foot: #0e2a44;
+  --foot-ink: #f4f8fc;
+  --foot-muted: #c5d7e8;
+  --theme-color: #1f5c96;
+}
+
 html[data-theme="dark-blue"] {
   --paper: #0e1a2b;
   --surface: #15263d;

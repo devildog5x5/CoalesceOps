@@ -10,6 +10,7 @@
     "light-green": 1,
     "dark-green": 1,
     "light-blue": 1,
+    "medium-blue": 1,
     "dark-blue": 1,
     red: 1,
     "light-red": 1
