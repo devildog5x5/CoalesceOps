@@ -86,18 +86,5 @@
     }
   });
 
-  var hostNote = document.getElementById("host-note");
-  if (hostNote && location.hostname) {
-    var host = location.hostname.replace(/^www\./, "").toLowerCase();
-    var known = {
-      "coalesceops.com": true,
-      "coalesceops.pro": true,
-      "coalesceops.org": true
-    };
-    if (known[host]) {
-      hostNote.textContent = "You are on " + host + ". CoalesceOps.com, CoalesceOps.pro, and CoalesceOps.org are this same practice.";
-    }
-  }
-
   applyTheme(document.documentElement.getAttribute("data-theme") || "light-green");
 })();
