@@ -1,0 +1,11 @@
+build/
+installers/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The practice — Coalesce Ops</title>
+  <meta name="description" content="The Coalesce Ops practice maps how work actually moves, names an owner for each duty, and joins the seams between teams, systems, and sites." />
+  <meta name="keywords" content="Coalesce Ops practice, operations review, on-site operations, ownership, cadence, Robert Foster" />
+  <link rel="canonical" href="https://coalesceops.com/practice.html" />
+  <meta name="theme-color" content="#f3efe8" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("coalesceops-theme");
+      var themes = { light: 1, dark: 1, "light-green": 1, "dark-green": 1, "light-blue": 1, "dark-blue": 1, red: 1, "light-red": 1 };
+      document.documentElement.setAttribute("data-theme", themes[saved] ? saved : "light");
+    })();
+  </script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css?v=1.0.0" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a class="brand" href="index.html">
+      <img src="assets/favicon.svg" width="36" height="36" alt="" />
+      <span class="brand-text">
+        <span class="brand-name">Coalesce Ops</span>
+        <span class="brand-legal">© 2026 Robert Foster</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="practice.html" aria-current="page">Practice</a>
+      <a href="services.html">Services</a>
+      <a href="method.html">Method</a>
+      <a href="domains.html">Domains</a>
+      <a class="nav-cta" href="contact.html">Contact</a>
+    </nav>
+    <div class="header-tools">
+      <div class="settings">
+        <button type="button" class="settings-btn" id="settings-toggle" aria-expanded="false" aria-controls="settings-panel">Appearance</button>
+        <div class="settings-panel" id="settings-panel" hidden>
+          <p class="settings-label" id="settings-label">Appearance</p>
+          <div class="theme-list" role="radiogroup" aria-labelledby="settings-label">
+            <button type="button" role="radio" data-theme="light" aria-checked="true">Light</button>
+            <button type="button" role="radio" data-theme="dark" aria-checked="false">Dark</button>
+            <button type="button" role="radio" data-theme="light-green" aria-checked="false">Light green</button>
+            <button type="button" role="radio" data-theme="dark-green" aria-checked="false">Dark green</button>
+            <button type="button" role="radio" data-theme="light-blue" aria-checked="false">Light blue</button>
+            <button type="button" role="radio" data-theme="dark-blue" aria-checked="false">Dark blue</button>
+            <button type="button" role="radio" data-theme="red" aria-checked="false">Red</button>
+            <button type="button" role="radio" data-theme="light-red" aria-checked="false">Light red</button>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-drawer" id="nav-drawer" hidden>
+    <a href="practice.html" aria-current="page">Practice</a>
+    <a href="services.html">Services</a>
+    <a href="method.html">Method</a>
+    <a href="domains.html">Domains</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">The practice</p>
+        <h1>One account of how the operation runs.</h1>
+        <p class="lede">Coalesce Ops is an on-site practice. We examine the work as it is done, then leave a written account of what is split and what must join.</p>
+      </div>
+    </header>
+
+    <section class="band">
+      <div class="wrap split">
+        <h2>What “coalesce” means here</h2>
+        <div class="prose">
+          <p>It does not mean a new slogan, a reorganization chart, or a tool that replaces the ones you already run. It means the separate pieces of an operation agree on the work, the owner, and the week.</p>
+          <p>The review covers the people who move the work, the systems that record it, and the leadership that owns the decisions. A gap in any one of those shows up in the others.</p>
+          <p>You receive a direct account: what is already sound, what is split, and the sequence in which to join it. The first visit is scoped in writing before it is scheduled. Work that follows is agreed separately.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band alt">
+      <div class="wrap split">
+        <h2>What remains</h2>
+        <div class="prose">
+          <p>The engagement is finished when your team can run the cadence without us in the room. Procedures, owners, and the record of what held stay with you.</p>
+          <p>CoalesceOps.com, CoalesceOps.pro, and CoalesceOps.org are this same practice. The name you use depends on whether you are a client, a professional making a referral, or a reader of the method.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <div class="foot-row">
+        <div>
+          <p class="foot-name">Coalesce Ops</p>
+          <p class="foot-legal">© 2026 Robert Foster</p>
+          <p class="foot-version">Coalesce Ops v1.0.0</p>
+        </div>
+        <p class="foot-domains">coalesceops.com · coalesceops.pro · coalesceops.org</p>
+      </div>
+      <p id="host-note"></p>
+    </div>
+  </footer>
+  <script src="assets/site.js?v=1.0.0"></script>
+</body>
+</html>
